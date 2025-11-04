@@ -1,94 +1,67 @@
 ---
-title: 'Development'
-description: 'Preview changes locally to update your docs'
+title: "Meet Continia Document Capture | Continia Docs"
+date: "17-09-2025"
+description: "An introduction to Continia Document Capture."
+id: "DC-66"
+lang: "en"
 ---
 
-<Info>
-  **Prerequisites**:
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
+# Welcome to Continia Document Capture
 
-Follow these steps to install and run Mintlify on your operating system.
+Document Capture is an end-to-end solution for Microsoft Dynamics 365 Business Central that enables you to import, OCR-process, register, approve, and archive invoices and other business documents. It streamlines and automates every step of your document management process, featuring a full approval workflow that allows users to approve documents after they’ve been received, scanned, and registered. Also, the digital archive makes it easy to retrieve previously processed documents for auditing, reporting, or other purposes.
 
-<Steps>
-<Step title="Install the Mintlify CLI">
+For an overview of the available modules and their features, see [Business Functionality](@DC-49).
 
-```bash
-npm i -g mint
-```
-</Step>
+<video controls className="w-full aspect-video rounded-xl" src="https://player.vimeo.com/video/865548640?h=e083c6692e&badge=0&autopause=0&player_id=0&app_id=58479" />
 
-<Step title="Preview locally">
+## [Release plan](@DC-56)
 
-Navigate to your docs directory where your `docs.json` file is located, and run the following command:
+Stay in the loop:
 
-```bash
-mint dev
-```
+- Learn about upcoming development plans in the [roadmap overview](@DC-56).
+- Discover the latest features and enhancements in Document Capture by checking out [the changelogs](New and Planned/Detailed changelogs/Overview.md).
+- Stay updated on new and revised documentation by visiting the [Docs changelog](@DC-29).
 
-A local preview of your documentation will be available at `http://localhost:3000`.
+## [Getting started](@DC-148)
 
-</Step>
-</Steps>
+Read about [the fundamentals of Document Capture](@DC-148) and its modules, features, and more.
 
-## Custom ports
+## Popular pages
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
+Discover the most frequently visited pages for guides, instructions, and resources to help with your tasks. These popular pages are a valuable starting point for troubleshooting, information gathering, or simply finding best practices.
 
-```bash
-mint dev --port 3333
-```
+- [Setting up Job Queues](@DC-16)
+- [Continia User Setup for Approvals](@DC-23)
+- [Supported On-Premises Versions of NAV and Business Central](@DC-44)
+- [Setting up Azure Blob Storage](@DC-171)
+- [Email Notifications](@DC-26)
+- [Document Capture Permissions](@DC-140)
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+## [How the documentation is organized](@DC-14#continia-docs)
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+Navigating through Document Capture's wealth of documentation? Here's a high-level overview to help you find what you need:
 
-## Mintlify versions
+- Want to know how to set up different parts of the solution? Read the [Setting up Document Capture](@DC-121) overview.
+- Want to send and receive electronic documents via networks such as Peppol? Read the [Continia eDocuments](@DC-177) overview.
+- Want to know about Document Capture's key features? Read the [Business Functionality](@DC-50) overview.
+- To find in-depth information on technical topics, refer to the [Development and Administration](Development and Administration/Overview.md) section.
 
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
+> [!NOTE] The content on Continia Docs is based on the latest versions of Continia apps and Business Central online, unless noted otherwise. If you can't find a feature mentioned, your organization may be using an older version of Business Central or your Continia app.
 
-```bash
-npm mint update
-```
+## [Need help?](@DC-14)
 
-## Validating links
+Have you encountered issues? Help is never far away.
 
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
+- Looking for specific information? Try the detailed table of contents, use the search, or filter by title fields.
+- Check out the FAQ sections for common queries. You can find the FAQ section directly in the folder of each specific topic, when available. Alternatively, enter 'FAQ' in the title filter in the navigation pane.
+- Are you stuck in a difficult scenario, or is a bug causing trouble? [Contact Support for assistance](@DC-14).
+- Eager to delve into further details? [Check out the Learn site](https://learn.continia.com/).
 
-```bash
-mint broken-links
-```
+## Start a [free trial](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.continia365%7CAID.6da8dd2f-e698-461f-9147-8e404244dd85%7CPAPPID.6da8dd2f-e698-461f-9147-8e404244dd85?tab=Overview)!
 
-## Deployment
+## Related information
 
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img src="/images/checks-passed.png" alt="Screenshot of a deployment confirmation message that says All checks have passed." style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-
-    This may be due to an outdated version of node. Try the following:
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
-
-  <Accordion title="Issue: Encountering an unknown error">
-  
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
+[Document Capture on continia.com](https://www.continia.com/solutions/continia-document-capture/)\
+[Notice about Documentation and Website Usage](Legal notice.md)\
+[Compliance](Compliance.md)\
+[Other Continia Solutions](/)
