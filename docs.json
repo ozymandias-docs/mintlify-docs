@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Starter kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "English",
         "groups": [
           {
             "group": "Getting started",
@@ -22,47 +22,47 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Document Capture",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "dc/index",
+              "dc/overview-of-new-and-planned",
+              "dc/overview-of-business-functionality"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Document Output",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "do/index",
+              "do/code",
+              "do/images",
+              "do/reusable-snippets"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Expense Management",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "em/index",
+              "em/claude-code",
+              "em/windsurf"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Deutsch",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Document Capture",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Document Capture",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "dc/index",
+              "dc/overview-of-new-and-planned",
+              "dc/overview-of-business-functionality"
             ]
           }
         ]
