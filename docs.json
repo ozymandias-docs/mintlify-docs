@@ -14,11 +14,11 @@
         "tab": "English",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Continia",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "trust",
+              "appsource"
             ]
           },
           {
@@ -33,17 +33,16 @@
             "group": "Document Output",
             "pages": [
               "do/index",
-              "do/code",
-              "do/images",
-              "do/reusable-snippets"
+              "do/overview-of-new-and-planned",
+              "do/overview-of-business-functionality"
             ]
           },
           {
             "group": "Expense Management",
             "pages": [
               "em/index",
-              "em/claude-code",
-              "em/windsurf"
+              "em/overview-of-new-and-planned",
+              "em/overview-of-business-functionality"
             ]
           }
         ]
