@@ -22,6 +22,14 @@
             ]
           },
           {
+            "group": "Continia Banking",
+            "pages": [
+              "cb/index",
+              "cb/overview-of-new-and-planned",
+              "cb/overview-of-business-functionality"
+            ]
+          },
+          {
             "group": "Document Capture",
             "pages": [
               "dc/index",
