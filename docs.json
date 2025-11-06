@@ -39,7 +39,9 @@
           {
             "group": "Document Output",
             "pages": [
-              "do/index"
+              "do/index",
+              "do/overview-of-new-and-planned",
+              "do/overview-of-business-functionality"
             ]
           },
           {
